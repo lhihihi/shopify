@@ -1,0 +1,39 @@
+@charset "utf-8"; 
+
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "NanumSquareAc", sans-serif;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+}
+li{list-style-type: none;}  
+a{
+  text-decoration: none;  
+  color: inherit;   
+}
+article,aside,details,summary,figcaption,figure,
+footer,header,hgroup,main,nav,section{ 
+	display:block;  
+}
+
+
+/* h1{
+  font-size: 3.5rem;
+} */
+
+/* 
+검사도구(computed)에서 보면 20px로 나오는것을 확인할수 있다.
+62.5%로 하게 되면 html의 기본폰트사이즈는 16px인데 더 작게 10px로 되기 때문에 계산하기가 편한다.
+rem단위를 쓰게 되면 root폴더에서 딱 한번만 전달이 되기때문에 rem에 10을 곱한 결과가 된다.
+
+만약에 35px로 할거다 그러면 3.5rem을 입력하면 된다.
+*/
